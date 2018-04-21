@@ -1,0 +1,17 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node server.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "mime": "^2.3.1",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1"
+  }
+}
